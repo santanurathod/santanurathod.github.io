@@ -40,7 +40,7 @@
 									</header>
 
 									<hr class="major" />
-									<h2>Theoretical Neuroscience (Ongoing)</h2>
+									<h2>Theoretical Neuroscience (ongoing)</h2>
 									<span class="image object">
 										<img src="images/website_neuro_image.jpeg" alt="" width="800" height="400"/>
 									</span>
@@ -48,7 +48,7 @@
 										In this work we try to model and theoretically explain the decay of dendritic spines that’s observed in adult mice and human hippocampus as described in the paper [1], where the authors observed the half-life of the spine connections to be 3-4 weeks. This is of great intellectual interest because what it essentially means is that there’re some connections that we can get rid of without the loss affecting our day-to-day activities. 
 									</p>
 									<p>
-									We’re trying to model and explain this phenomenon by exploring how the performance (correctinput-output mapping) of a single-layer feed-forward neural network changes when we randomly remove some of the weights.
+									We’re trying to model and explain this phenomenon by exploring how the performance (correct input-output mapping) of a single-layer feed-forward neural network changes when we remove some of the weights.
 									</p>
 									<p>
 									Our efforts are inspired from the work mentioned in [2] which explores the hardness in finding solutions of a binary single-layer feed-forward perceptrons as we increase the number of samples 
@@ -58,7 +58,7 @@ to fit (or keep adding more constraints). The basic idea is to select an equilib
 									This framework was originally introduced as the name of Franz-Parisi potential to study the metastable state structure for discontinuous mean-field spin glasses (e.g., p-spin spherical spin glass), where the potential has the physical meaning of the free energy cost to keep a system at a temperature with a fixed overlap from an equilibrium configuration at a different temperature. In [2] the Franz-Parisi potential is interpreted in terms of the entropy function to describe the solution space, and they show that a quenched computation (average over the choice of the reference equilibrium solution) of the potential in the zero temperature limit is possible and provide important physical insights towards understanding the geometrical organization of the solution (weight) space. 
 									</p>
 									<p>
-									While [2] tries to explore the solution space within a certain hamming distance of the equilibrium point, we’re trying to explore the area around solution space represented by a linear transformation (connection decay) of the equilibrium point. We intend to explore the Franz-parisi potential (entropy density) around such transformed points and hypothesise that there exists a transformationsuch that it maintains a positive potential thus helping us theoretically understand the nature of decay of dendritic spines.
+									While [2] tries to explore the solution space within a certain hamming distance of the equilibrium point, we’re trying to explore the area around solution space represented by a linear transformation (connection decay) of the equilibrium point. We intend to explore the Franz-parisi potential (entropy density) around such transformed points and hypothesise that there exists a transformation such that it maintains a positive potential thus helping us theoretically understand the nature of decay of dendritic spines.
 									</p>
 									<p>
 										[1]:<a href= "https://www.nature.com/articles/nature14467">Impermanence of dendritic spines in live adult CA1 hippocampus</a> <br />
@@ -67,8 +67,52 @@ to fit (or keep adding more constraints). The basic idea is to select an equilib
 									
 									<hr class="major" />
 
-									<h2>Global convergence of model-free simultaenous control</h2>
-									
+									<h2>Global convergence of model-free simultaneous control (completed)</h2>
+									<span class="image object">
+										<img src="images/website_mjls_image_one.webp" alt="" width="800" height="400"/>
+									</span>
+									<p>
+										Oftentimes, in reality, control systems don’t behave as they’re theoretically
+modelled. And sometimes the changes can be too abrupt for the system to be
+expected to observe a fixed prior behaviour, component failures and repairs or for
+example environmental disturbances or changes in subsystems interconnections
+or a change in network based models, like air-transportation or disease epidemics
+due to some confounders, etc. In some cases these systems
+can be modelled by discrete-time linear systems with state-transition coming
+from an underlying Markov chain; like for instance in the case of ship steering
+the ship dynamics vary according to the speed, which can be
+measured from appropriate speed sensors, and autopilots for these systems can
+be improved by taking these changes into account. 
+									</p>
+									<p>
+										Also, knowing the system dynamics before hand might not be the fastest and
+most autonomous way to go about finding optimal policy, especially in systems where
+the states alter dynamically. And in our work [1] we’ve shown that optimal policy
+can simply be achieved by gathering data and statistics, and hence it’s some sense
+more autonomous. [2] show model-free convergence guarantees
+for LQR systems, but the results can’t be trivially extended to MJLS because
+of the dynamic switch between states instead of being static.
+[3] explores MJLS policy convergence when the system parameters are
+known, and thus our paper tries to bridge this gap between model-given MJLS
+[3] and model-free LQR [2]
+									</p>
+									<p>
+									Summary of our contributions in [1]:
+									<ul>
+									<li> We provide an algorithm for estimating gradient and state correlation
+										matrix used in gradient descent and natural gradient descent for policy
+										iteration in model-free MJLS case. </li>
+									<li> We prove intermediary results showing that a sufficient time horizon is enough for a good estimated of concerned quantities, and that variations resulting due slight perturbations in policy and transition probabilities can be bounded. </li>
+									<li> We then prove policy convergence using both gradient descent and natural
+										gradient techniques. </li>
+									<li>We also provide simulation studies to corroborate our convergence claims. </li>
+								</ul>
+									</p>
+									<p>
+										[1]:<a href= " https://arxiv.org/abs/2111.15228">Global Convergence Using Policy Gradient Methods for Model-free Markovian Jump Linear Quadratic Control</a> <br />
+										[2]:<a href= " https://arxiv.org/abs/1801.05039">Global Convergence of Policy Gradient Methods for the Linear Quadratic Regulator </a> <br />
+										[3]:<a href= "https://arxiv.org/abs/2011.11852">Policy Optimization for Markovian Jump Linear Quadratic Control: Gradient-Based Methods and Global Convergence </a> <br />
+									</p>
 									<hr class="major" />
 
 									<h2>Constrainted online learning and streaming</h2>
