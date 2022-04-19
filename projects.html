@@ -113,16 +113,40 @@ known, and thus our paper tries to bridge this gap between model-given MJLS
 										[2]:<a href= " https://arxiv.org/abs/1801.05039">Global Convergence of Policy Gradient Methods for the Linear Quadratic Regulator </a> <br />
 										[3]:<a href= "https://arxiv.org/abs/2011.11852">Policy Optimization for Markovian Jump Linear Quadratic Control: Gradient-Based Methods and Global Convergence </a> <br />
 									</p>
-									<!-- <hr class="major" />
+									<hr class="major" />
 
-									<h2>Constrainted online learning and streaming</h2>
-									
+									<h2>Online learning and streaming under memory constraints</h2>
+									<span class="image object">
+										<img src="images/website_mab_picture_one.png" alt="" width="800" height="400"/>
+									</span>
+									<p>
+										With multi-arm bandits having abundant applications in healthcare, finance, dynamic-pricing models, recommender systems, etc. it makes sense to think about budgetary and resource constraints, especially in settings where the number of levers are large. People have proposed a bandit algorithm for making online portfolio choices via exploiting correlations among multiple arms, now given that high frequency trading firms operate on large volumes of data frequently they can surely benefit from near optimal performance in resource constraint setting. Even in social good problems like drug-testing, and other practically relevant tasks like crowd-sourcing that are modelled using multi armed bandits it makes economic sense to explore options that operate near optimally without storing entire statistics of the system.
+									</p>
+
+									<p>
+										To that end, in [2] the authors have established an instance independent, T= total time horizon, O(sqrt(Tlog(T))) bound with O(log(T)) streaming passes. Our objective thus was to explore the domain between log(T) and one pass, and try to minimise the regret accumulated while also reducing the number of passes to the extent that we can.
+						
+									</p>
+									<p>
+										Our contributions in [1]:
+										<ul>
+											<li>We propose a variation of Algorithm-1 in [2] which accrues O(sqrt(Tlog(T))) regret with log(log(T)) passes instead of log(T) passes. </li>
+											<li>Using the analysis devised for above result we then propose a 2-pass-algorithm, with some instance dependent initial conditions, with O(sqrt(Tlog(T))) regret.</li>
+											<li>Simulations to corroborate the results. </li>
+											<li>We also include an instance dependent two-pass-hybrid algorithm with some prior information about the system which incurs a log(T) regret.  </li>
+										</ul>
+									</p>
+									<p>
+										[1]:<a href= " https://arxiv.org/abs/2112.06130">On reducing the order of arm-passes bandit streaming algorithms under memory bottleneck</a> <br />
+										[2]:<a href= "https://arxiv.org/abs/1901.08387"> Regret Minimisation in Multi-Armed Bandits Using Bounded Arm Memory</a> <br />
+									</p>
+
 									<hr class="major" />
 
 									<h2>Learning to schedule using unsupervised learning</h2>
 									<span class="image object">
 										<img src="images/pic01.jpg" alt="" width="100" height="100"/>
-									</span> -->
+									</span>
 									
 								</section>
 
