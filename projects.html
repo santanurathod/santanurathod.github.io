@@ -40,8 +40,25 @@
 									</header>
 
 									<hr class="major" />
-
-									<h2>Theoretical Neuroscience</h2>
+									<h2>Theoretical Neuroscience (2021-22)</h2>
+									<span class="image object">
+										<img src="images/website_neuro_image.jpeg" alt="" width="100" height="100"/>
+									</span>
+									<p>
+										In this work we try to model and theoretically explain the decay of dendritic spines that’s observed in adult mice and human hippocampus as described in the paper [1], where the authors observed the half-life of the spine connections to be 3-4 weeks. This is of great intellectual interest because what it essentially means is that there’re some connections that we can get rid of without the loss affecting our day-to-day activities. 
+									<br>
+									We’re trying to model and explain this phenomenon by exploring how the performance (correctinput-output mapping) of a single-layer feed-forward neural network changes when we randomly remove some of the weights.
+									<br>
+									Our efforts are inspired from the work mentioned in [2] which explores the hardness in finding solutions of a binary single-layer feed-forward perceptrons as we increase the number of samples 
+to fit (or keep adding more constraints). The basic idea is to select an equilibrium solution sampled from the Boltzmann measure, and then explore the solution space around this selected equilibrium solution by analyzing the entropy landscape in the vicinity of the reference equilibrium solution. 
+									<br>
+									This framework was originally introduced as the name of Franz-Parisi potential to study the metastable state structure for discontinuous mean-field spin glasses (e.g., p-spin spherical spin glass), where the potential has the physical meaning of the free energy cost to keep a system at a temperature with a fixed overlap from an equilibrium configuration at a different temperature. In [2] the Franz-Parisi potential is interpreted in terms of the entropy function to describe the solution space, and they show that a quenched computation (average over the choice of the reference equilibrium solution) of the potential in the zero temperature limit is possible and provide important physical insights towards understanding the geometrical organization of the solution (weight) space. 
+									<br>
+									While [2] tries to explore the solution space within a certain hamming distance of the equilibrium point, we’re trying to explore the area around solution space represented by a linear transformation (connection decay) of the equilibrium point. We intend to explore the Franz-parisi potential (entropy density) around such transformed points and hypothesise that there exists a transformationsuch that it maintains a positive potential thus helping us theoretically understand the nature of decay of dendritic spines.
+									<br>
+									<a href= "https://www.nature.com/articles/nature14467">[1]:Impermanence of dendritic spines in live adult CA1 hippocampus</a> <br />
+									<a href= "https://arxiv.org/abs/1408.1784">[2]:Origin of the computational hardness for learning with binary synapses </a> <br />
+									</p>
 									
 									<hr class="major" />
 
