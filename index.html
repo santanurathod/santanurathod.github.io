@@ -1,242 +1,54 @@
-<!DOCTYPE HTML>
+---
+layout: homepage
+---
+
+<div class="container">
+  <!-- begin author -->
+  <section class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+    <!-- <div class="author__inner"> -->
+  <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
+      <h2 class="author__job">{{ site.author.job }}</h2>
+      <p class="author__bio">{{ site.author.bio }}</p>
+      <div class="contact">
+
+        <!--Listing all my links here. Change these links in _config.yml -->
+        <div class="contact__title">Links:</div>
+          <div class="contact__link">
+            <a href="mailto:{{site.author.email}}">Email</a>
+          </div>
+          <div class="contact__link">
+            <a href="{{site.author.CV}}">CV</a>
+          </div>
+          <div class="contact__link">
+            <a href="{{site.author.github}}">GitHub</a>
+          </div>
 <!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Personal Homepage</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+          <div class="contact__link">
+            <a href="{{site.author.linkedin}}">LinkedIn</a>
+          </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+          <div class="contact__link">
+            <a href="{{site.author.group_site}}">Research Group</a>
+          </div>          -->
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
 
-							<!-- Header -->
-								<header id="header">
-									<!-- <a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a> -->
-									<ul class="icons">
-										<li><a href="https://twitter.com/RSSantanu" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-										<!-- <li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li> -->
-										<li><a href="https://www.instagram.com/soviet___spy/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="https://www.linkedin.com/in/santanu-rathod-371596141/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-										<li><a href="https://scholar.google.com/citations?user=KuT4V6UAAAAJ&hl=en" class="icon brands fa-google-scholar"><span class="label">Google Scholar</span></a></li>
-										<!-- <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
-									</ul>
-								</header>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<!-- <header>
-											<h1>Hi, I’m Santanu Rathod.<br />
-											Thanks for dropping by!!</h1>
-										</header> -->
-										<p>Hi, I'm Santanu Rathod, and I graduated from IIT-Bombay in 2020 with a B.Tech in Electronics and Electrical Engineering.
-											What have I done since? Formally speaking, my formal work title is that of an 'Associate ML Scientist' at this altruistic institute called WadhwaniAI which tackles AI/ML use-cases that have the potential to create a positive social impact; my over-arching domain is healthcare to be specific. <br>
-										<br>
-											Other than that, researchwise, I've also recently worked on robustness, theoretical ML, control theory, online learning, theoretical neuroscience, etc. projects. Apart from research I enjoy running, cycling, hiking, deadlifts, air-rifle shooting, daydreaming, cooking, listening to classical music, poetry, and literally anything that life has to offer.</p>
-										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/personal_image_zurich.jpeg" alt="" width="100" height="50"/>
-										<figcaption>Uteliberg, Zürich</figcaption>
-									</span>
-								</section>
+  </section>
 
-							<!-- Section -->
-								<!-- <section>
-									<header class="major">
-										<h2>General research statement</h2>
-									</header>
-									<p>[TODO]</p> -->
-<!-- 								[Santanu: Adds features with bigger boxed captions and some writings]
-									<div class="features"> 
-										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-									</div> -->
-								<!-- </section> -->
+  <div class="author__more">
+    <div class="updated_line">Last Updated: {{site.author.last_update}}</div>
+  </div>
+</div>
 
-							<!-- Section -->
-<!-- 							[Santanu: major section, might be used later]
-								<section>
-									<header class="major">
-										<h2>Ipsum sed dolor</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section> -->
+<!--
 
-						</div>
-					</div>
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+      <div class="author__more">
+        <a href="mailto:{{site.author.email}}?subject=Hello%20%F0%9F%91%8B" class="buttom__links">Email</a>
+        <a href="https://github.com/shonomercy" class="buttom__links">Git</a>
+        <a href="{{site.baseurl}}/about/" class="buttom__links">Know More</a>
+      </div> -->
+    <!-- </div> -->
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="publications.html">Publications</a></li>
-										<li><a href="projects.html">Projects</a></li>
-										<!-- <li>
-											<span class="opener">Submenu</span> -->
-											<ul>
-												
-											</ul>
-										</li>
-									</ul>
-								</nav>
-
-							<!-- Section --> 
-								<!-- <section> [Santanu: This section adds something to the side on left]
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section> -->
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Please don't hesitate to reach out even if we don't know each other and definitely don't hesitate to reach out of you want to discuss something.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">santanusrathod4415[at]gmail[dot]com</a></li>
-										<li class="icon solid fa-phone">+91-9552465899</li>
-										<li class="icon solid fa-home">Planet Earth (for now)</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Santanu Rathod. All rights reserved.</p>
-								</footer>
-
-						</div>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+  <!-- end author -->
+<!-- </div> -->

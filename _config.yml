@@ -1,0 +1,75 @@
+title: Sho Kawano
+logo:  # you can add own logo.
+description:
+baseurl: ""
+url: https://sho-kawano.github.io # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Author Settings
+author:
+  name: Sho Kawano
+  image: '/assets/img/about.jpg'
+  job: Welcome to my page!
+  bio: |+
+    <br />
+    Currently a PhD Student in Statistics at UC Santa Cruz.
+    <br />
+    Meditator,  traveler, cook, softball player, and a bundle of energy & jokes
+    <br />
+    This site is a blend of professional/personal content.
+    <br />
+  CV: https://drive.google.com/open?id=13cD5LtQDNS5w-2_u3KhCg6FHuc-tV9b5&usp=drive_fs
+  email: shkawano@ucsc.edu
+  github: https://github.com/sho-kawano
+  last_update:  May 2024
+
+
+
+# Contact links
+# TODO: Potentially add later.
+# contact:
+#   - name: Twitter
+#     link: https://twitter.com/
+#
+
+# Comment Section (Disqus)
+disqus-identifier: sho-personal # add your shortname for Disqus Comment. For example mr-brown
+
+
+# Google Analytics
+google-analytics: UA-208765987-1
+# add your identifier. For example UA-99631805-1.
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
