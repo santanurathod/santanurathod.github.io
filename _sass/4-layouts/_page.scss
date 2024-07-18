@@ -20,10 +20,12 @@
 
 .page-image {
   margin-bottom: 5px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-color: $gray-white;
+  width: 100%; /* Adjust as needed */
+  height: 500px; /* Adjust the height to suit your design */
   &:after {
     content: '';
     display: table;

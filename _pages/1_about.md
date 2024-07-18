@@ -2,17 +2,14 @@
 layout: page
 title: About
 permalink: /about/
-image: /assets/img/laura.jpeg
-caption: Me and Laura in front of Mt. Whitney in Alabama Hills.
+image: /assets/img/lobuche.jpg
+caption: Battered legs and dried sweat. Lobuche, Nepal
 ---
 
 Skip to [short professional summary](#prof).
 
 ### Personal
 
-I'm always be changing but people often describe me as energetic, funny, and open. I love traveling, cooking, sports, gardening, and spending time with my partner Laura.  I try to value relationships & experiences more than stuff. I want to be remembered as someone with a big heart.
-
-Insight Meditation practice has and continues to change my life for the better.
 
 #### My Story
 
