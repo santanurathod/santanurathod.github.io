@@ -56,11 +56,11 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/assets/gameoflife/embeded.html</loc>
-<lastmod>2024-07-19T16:20:46+02:00</lastmod>
+<loc>http://localhost:4000/assets/game/embeded.html</loc>
+<lastmod>2024-07-19T16:37:07+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/assets/gameoflife/</loc>
+<loc>http://localhost:4000/assets/game/</loc>
 <lastmod>2024-07-19T15:58:56+02:00</lastmod>
 </url>
 </urlset>
