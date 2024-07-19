@@ -35,13 +35,13 @@ window.onload = function() {
 
 <div id="gameoflife_container"></div> -->
 
-<iframe id="gameoflife_frame" frameborder="0" width="100%" height="100%" src="/assets/gameoflife/embeded.html?width=800&height=600&speed=20000"></iframe>
+<!-- <iframe id="gameoflife_frame" frameborder="0" width="100%" height="100%" src="/assets/gameoflife/embeded.html?width=800&height=600&speed=20000"></iframe>
 
 <script type="text/javascript">
     document.getElementById('gameoflife_frame').addEventListener('click', function() {
         window.location.href = '/assets/gameoflife/index.html';
     });
-</script>
+</script> -->
 
 ### <a name="research"></a> Research
 
