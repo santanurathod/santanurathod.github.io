@@ -34,7 +34,7 @@ air-rifle shooting, playing devil's advocate, seeing tree leaves flutter in the 
 
 **2020-2022** My time at Wadhwani-AI taught me that XGBoost is the GOAT, shiny new models will get you a paper but no real value, free investor money is poison, theory gives you deeper understanding but quality data gives you real performance. Understood [Yogi-Berra.](https://www.brainyquote.com/quotes/yogi_berra_141506) Procrastinated and eventually dropped on a Start-up idea.
 
-**Also 2020-2022**  Went to Everest and Annapurna Basecamp, backpacked across SE Asia. [Angkor-Wat](https://en.wikipedia.org/wiki/Angkor_Wat) deserves to among 7 wonders, not Taj Mahal. Rode motorcyle across villages in Indian states, saw the raw and rural India, had conversations with real people; felt priviledged, and obligated towards them.
+**Also 2020-2022**  Went to Everest and Annapurna Basecamp, backpacked across SE Asia. [Angkor-Wat](https://en.wikipedia.org/wiki/Angkor_Wat) deserves to be among 7 wonders, not Taj Mahal. Rode motorcyle across villages in Indian states, saw the raw and rural India, had conversations with real people; felt priviledged, and obligated towards them.
 
 **2023-now** Had fermented rice beer in a jungle with [Naga-people](https://en.wikipedia.org/wiki/Naga_people), met my girlfriend; traveled with her; she introduced me to surfing, made a 3500KM long motorcycle trip to eat a Horlicks Ice-Cream in [Udupi](https://youtu.be/PIsPdbLTHUA?si=u7T4FgKZw_gPJGjD) in pouring monsoon rain, got into ELLIS PhD program and started my PhD. Currently in Saarbrucken, Germany, looking for reasons to like it-- it's [kinder pingui](https://www.kinder.com/de/de/kinder-pingui)!!
 
