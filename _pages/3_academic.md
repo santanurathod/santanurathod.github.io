@@ -22,19 +22,15 @@ caption:
 ### <a name="research"></a>  Research
 
 
-I am broadly interested in developing statistical tools for applications relevant to public policy and public health.
+I am broadly interested in [TODO]
 More specifically I'm interested in:
 
-* Official Statistics
-* Small Area Estimation
-* Disease Mapping
-* Areal Data Modeling
-* Bayesian Methods
-* Record Linkage
+* Geometric-DL
+* TODO
 
-I am co-advised by [Zehang Li](https://zehangli.com) and [Paul Parker](https://www.paparkerstat.com).
+I am co-advised by [Xiao Zhang](https://xiao-zhang.net/) and [Pietro Lio](https://www.cl.cam.ac.uk/~pl219/).
 
-**Update:**
+**Update [TODO]:**
 
 * Recently completed a project that is the first chapter of my dissertation.
   + *Spatially Selected and Dependent Random Effects for Small Area Estimation with Application to Rent Burden*
@@ -45,7 +41,7 @@ I am co-advised by [Zehang Li](https://zehangli.com) and [Paul Parker](https://w
 
 ***
 
-###  <a name="teaching"></a> Teaching
+<!-- ###  <a name="teaching"></a> Teaching
 
 **Stat 5 Curriculum Re-Development**
 
@@ -78,4 +74,4 @@ If you're a TA and would like access to any of my slides or materials, please co
 
 
 [^1]: Check out [Leo Breiman's Interview](https://projecteuclid.org/download/pdf_1/euclid.ss/1009213290).
-*Updated: April 2024*
+*Updated: April 2024* -->
