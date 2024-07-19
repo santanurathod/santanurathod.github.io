@@ -35,13 +35,12 @@ window.onload = function() {
 
 <div id="gameoflife_container"></div> -->
 
-<!-- <iframe id="gameoflife_frame" frameborder="0" width="100%" height="100%" src="/assets/gameoflife/embeded.html?width=800&height=600&speed=20000"></iframe>
-
-<script type="text/javascript">
-    document.getElementById('gameoflife_frame').addEventListener('click', function() {
-        window.location.href = '/assets/gameoflife/index.html';
-    });
-</script> -->
+<div style="text-align: center;">
+    <iframe id="gameoflife_frame" frameborder="0" width="600" height="300" src="/assets/gameoflife/embeded.html?width=800&height=600&speed=2000"></iframe>
+    <p style="font-style: italic; margin-top: 0.5em; font-size: 0.8em;">
+        Click on the animation to play <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a>
+    </p>
+</div>
 
 ### <a name="research"></a> Research
 

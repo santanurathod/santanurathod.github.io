@@ -23,6 +23,11 @@
 
      var game = new GameOfLife(universeContainer, preset)
      game.play(speed);
+
+     // Add click event listener to redirect to the index.html page
+     universeContainer.addEventListener('click', function() {
+                window.location.href = '/assets/gameoflife/index.html';
+            });
  }
 </script>
 </head>

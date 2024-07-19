@@ -1,7 +1,7 @@
 # Academic Derrick — Minimal Theme for Jekyll
 
 
-Derrick is a clean minimal and fast theme for a personal blog. See the original repo for full details.
+Who's derrick is a clean minimal and fast theme for a personal blog. See the original repo for full details.
 
 I made some major edits to the Derrick blogging theme to make it more suitable for an academic page.
 My goal was to create an academic page that has a more photographer-blog like feel and less sterile. 
