@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<link rel="stylesheet" type="text/css" href="gol.css">
+<script src="gol.js"></script>
+<script type="text/javascript">
+
+ window.onload = function(){
+     const status = { 'play' : 1, 'paused': 0 };
+     var gridSizeBox = document.getElementById('gridSize');
+     var startBtn = document.getElementById('play');
+     var resetBtn = document.getElementById('reset');
+     var speedControler = document.getElementById('speed');
+     var universeContainer = document.getElementById('universeContainer');
+     universeContainer.style.height = gridSizeBox.value + "px";
+     var currentStatus;
+     var game;
+
+     var init = function() {
+         currentStatus = status["paused"];
+         game = new GameOfLife(universeContainer, null);
+     }
+     init();
+
+     var pauseGame = function() {
+         currentStatus = status["paused"];
+         game.pause();
+     };
+
+     var startGame = function() {
+         currentStatus = status["play"];
+         game.play((parseInt(speed.attributes.max.value) - speedControler.value + 1) * 100);
+     };
+
+     universeContainer.addEventListener('click', function(e) {
+         var target = e.target;
+         if (currentStatus === status['paused'] && target.className === 'cell') {
+             var co_ord = target.id.split('-');
+             //Be Carefull: we use x,y co-ord style
+             game.resurrectCell(parseInt(co_ord[0]), parseInt(co_ord[1]));
+         }
+     });
+
+     startBtn.addEventListener('click', function(e) {
+         if (startBtn.value.toLowerCase() === 'play') {
+             startBtn.value = 'stop';
+             gridSizeBox.disabled = true;
+             resetBtn.disabled = true;
+             currentStatus = status['play'];
+             startGame();
+         } else {
+             startBtn.value = 'play';
+             gridSizeBox.disabled = false;
+             resetBtn.disabled = false;
+             currentStatus = status['paused'];
+             pauseGame();
+         }
+     });
+
+     gridSizeBox.addEventListener('change', function(e) {
+         universeContainer.style.height = gridSizeBox.value + "px";
+         init();
+     });
+
+     speed.addEventListener('change', function(e) {
+         var stopedByListener = false;
+         if (currentStatus === status["play"]) {
+             pauseGame();
+             stopedByListener = true;
+         }
+         if (currentStatus === status["paused"] && stopedByListener === true) {
+             startGame();
+         }
+     });
+
+     resetBtn.addEventListener('click', function() {
+         init();
+     });
+ };
+
+</script>
+<title>Conway's Game of Life</title>
+</head>
+<body>
+<div id="mainContainer">
+  <div id="controls">
+    <span>
+      Grid Size:
+      <input type="number" name="gridSize" id="gridSize" value="500" min="50"
+          max="900">
+    </span>
+    <span>
+      Speed:
+      <input type="range" name="speed" id="speed" value="5" min="1" max="10">
+    </span>
+  <span>
+    <input type="button" name="play" value="play" id="play" />
+  </span>
+  <span>
+    <input type="button" name="reset" value="reset" id="reset" />
+  </span>
+  </div>
+  <div id="universeContainer">
+  </div>
+  <h2>Game of Life</h2>
+  <div id="rules">
+    <h3>Rules:</h3>
+    <ul>
+      <li>Any live cell with fewer than two live neighbours dies,
+          as if caused by under-population.</li>
+      <li>Any live cell with two or three live neighbours
+          lives on to the next generation.</li>
+      <li>Any live cell with more than three live neighbours dies,
+          as if by overcrowding.</li>
+      <li>Any dead cell with exactly three live neighbours becomes a live cell,
+          as if by reproduction.</li>
+    </ul>
+  </div>
+</div>
+</body>
+
+</html>
