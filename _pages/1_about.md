@@ -14,7 +14,7 @@ I believe all individuals have an interesting life story, and as I result I love
 
 I find it impossible to balance, especially in pursuits, so I'm either utterly obsessed or utterly disinterested. I love travelling to random towns, obscure places, and asking people there what they think of something. I HATE museums. 
 
-Man is condemned to be free, but he's truly liberated on a motorcycle. Sorry, Sartre, you just never rode a bike. I devour
+[Man is condemned to be free](https://www.goodreads.com/quotes/148810-man-is-condemned-to-be-free-condemned-because-he-did#:~:text=man%20is%20condemned%20to%20be%20free), but he's truly liberated on a motorcycle. Sorry, Sartre, you just never rode a bike. I devour
 riding motorcyles, for weeks, for thousands of kilometers, across hundreds of places.
 
 I enjoy reading (absolutely anything, even political pamphlets), cooking, navy cross-fit, kickboxing, surfing, running, dog-walks,
