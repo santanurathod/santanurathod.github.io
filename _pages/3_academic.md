@@ -47,7 +47,7 @@ window.onload = function() {
 I am broadly interested in [TODO]
 More specifically I'm interested in:
 
-* Geometric-DL
+* Geometric-FL
 * TODO
 
 I am co-advised by [Xiao Zhang](https://xiao-zhang.net/) and [Pietro Lio](https://www.cl.cam.ac.uk/~pl219/).
