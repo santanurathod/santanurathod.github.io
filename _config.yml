@@ -48,6 +48,9 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-scholar
+
+
 
 # Pages Path
 defaults:
@@ -74,3 +77,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+
+# gems:
+#   - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: _bibliography
+  bibliography: papers.bib
