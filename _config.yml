@@ -2,8 +2,7 @@ title: Santanu Rathod
 logo:  # you can add own logo.
 description:
 baseurl: ""
-url: https://sho-kawano.github.io # the base hostname & protocol for your site, e.g. http://example.com
-
+url: https://santanurathod.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author:
@@ -13,7 +12,7 @@ author:
   job: Welcome to my page!
   bio: |+
     <br />
-    Currently an <a href="https://ellis.eu/phd-postdoc" target="_blank" rel="noopener">ELLIS</a> PhD Student CISPA-Helmholtz and University of Cambridge
+    Currently an <a href="https://ellis.eu/phd-postdoc" target="_blank" rel="noopener">ELLIS</a> 1st year PhD Student CISPA-Helmholtz and University of Cambridge
     <br /><br />
     I often start something to master, but somehow I always end up adding it to the jack of my trades
     <br /><br />
@@ -23,8 +22,6 @@ author:
   email: santanusrathod4415@gmail.com
   # github: https://github.com/santanurathod
   last_update:  July 2024
-
-
 
 # Contact links
 # TODO: Potentially add later.
@@ -36,11 +33,9 @@ author:
 # Comment Section (Disqus)
 disqus-identifier: rssantanu # add your shortname for Disqus Comment. For example mr-brown
 
-
 # Google Analytics
 google-analytics: G-TT6570D1XX
 # add your identifier. For example UA-99631805-1.
-
 
 # Build settings
 markdown: kramdown
@@ -48,6 +43,7 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-scholar
 
 # Pages Path
 defaults:
@@ -68,9 +64,19 @@ sass:
   sass_dir: _sass
   style: compressed
 
-
 # Exclude from processing.
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# for publication
+scholar:
+  style: apa
+  locale: en
+  source: /Users/rssantanu/Desktop/misc/website/personal_website/santanurathod.github.io/_bibliography/papers.bib
+  bibliography: /Users/rssantanu/Desktop/misc/website/personal_website/santanurathod.github.io/_bibliography/papers.bib
+  sort_by: year
+  order: descending
+  details_dir: publications
+  show_summary: true
