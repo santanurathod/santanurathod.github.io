@@ -2,14 +2,12 @@
 layout: post
 title:  Berkson's Paradox
 date:   2023-02-02 11:00:00
-image: /assets/img/lassen.jpeg
-caption: Lassen National Park!
+image: 
+caption: 
 usemathjax: true
 ---
 
-Written for STAT 131.
-
-One of the joys/horrors of TA-ing is that you always encounter things that stumps you as well as your students (especially in probability). Here is a very basic looking problem that stumped me from *Introduction to Probability by Joe Blitzstein and Jessica Hwang* (Ch2 Q37):
+A very basic looking problem that stumped me:
 
 <br />
 
