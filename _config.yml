@@ -45,6 +45,8 @@ plugins:
   - jekyll/tagging
   - jekyll-scholar
 
+
+
 # Pages Path
 defaults:
   - scope:
@@ -70,14 +72,12 @@ exclude:
   - Gemfile.lock
   - vendor
 
-# for publication
+
+# gems:
+#   - jekyll-scholar
 
 scholar:
   style: apa
   locale: en
-  source: /Users/rssantanu/Desktop/misc/website/personal_website/santanurathod.github.io/_bibliography/papers.bib
-  bibliography: /Users/rssantanu/Desktop/misc/website/personal_website/santanurathod.github.io/_bibliography/papers.bib
-  sort_by: year
-  order: descending
-  details_dir: publications
-  show_summary: true
+  source: _bibliography
+  bibliography: papers.bib
