@@ -25,7 +25,7 @@ More specifically I'm interested in:
 * Program Synthesis
 * And more things
 
-I am co-advised by [Xiao Zhang](https://xiao-zhang.net/) and [Pietro Lio](https://www.cl.cam.ac.uk/~pl219/). -->
+I am co-advised by [Xiao Zhang](https://xiao-zhang.net/) and [Pietro Lio](https://www.cl.cam.ac.uk/~pl219/).
 
-### Publications
-{% bibliography %}
+<!-- ### Publications
+{% bibliography %} -->
