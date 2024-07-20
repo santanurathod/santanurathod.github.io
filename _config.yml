@@ -71,6 +71,7 @@ exclude:
   - vendor
 
 # for publication
+
 scholar:
   style: apa
   locale: en
