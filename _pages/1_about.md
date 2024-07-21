@@ -26,7 +26,7 @@ air-rifle shooting, playing devil's advocate, seeing tree leaves flutter in the 
 
 **Growing up in Akola** I grew up with lots of love, and fat, reading a lot, abhorring school, solving math problems for fun.
 
-**2014-16, [JEE](https://en.wikipedia.org/wiki/Joint_Entrance_Examination_%E2%80%93_Advanced) years in Akola** Thought it's the most -only- important thing in the world. But as Roger Federer [says](https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer#:~:text=When%20you%E2%80%99re%20playing,clarity%20and%20focus.), "Once you score a point, it's great, but it's behind you. Move forward"
+**2014-16, [JEE](https://en.wikipedia.org/wiki/Joint_Entrance_Examination_%E2%80%93_Advanced) years in Akola** Thought it's the most -only- important thing in the world; I was very wrong. But as Roger Federer [says](https://home.dartmouth.edu/news/2024/06/2024-commencement-address-roger-federer#:~:text=When%20you%E2%80%99re%20playing,clarity%20and%20focus.), "Once you score a point, it's great, but it's behind you. Move forward"
 
 **2016-2020** Spent four wonderful years at IIT-Bombay. Travelled countries, was surrounded by some of the most amazing, talented, and smartest people. Felt inspired and depressed and motivated and humbled and intellectually stimulated. I could've used my years much better.
 
