@@ -32,7 +32,7 @@ air-rifle shooting, playing devil's advocate, seeing tree leaves flutter in the 
 
 **2020 COVID** Opted out of college placements, wanted to join a Chinese AI start-up in Shenzhen, ended up joining [Wadhwani-AI](https://www.wadhwaniai.org/). During the first COVID wave'20 I was sanitizing mangoes, eggs, among others.
 
-**2020-2022** My time at Wadhwani-AI taught me that XGBoost is the GOAT; shiny new models will get you a paper but, *often*, no real value; free investor money is poison; in ML, theory gives you deeper understanding but quality data gives you real performance. Understood [Yogi-Berra.](https://www.brainyquote.com/quotes/yogi_berra_141506) Procrastinated and eventually dropped on a Start-up idea.
+**2020-2022** My time at Wadhwani-AI taught me that XGBoost is the GOAT; shiny new models(techniques) will get you a paper but, *often*, no real value; free investor money is poison; in ML, theory gives you deeper understanding but quality data gives you real performance. Understood [Yogi-Berra.](https://www.brainyquote.com/quotes/yogi_berra_141506) Procrastinated and eventually dropped on a Start-up idea.
 
 **Also 2020-2022**  Went to Everest and Annapurna Basecamp, backpacked across SE Asia. [Angkor-Wat](https://en.wikipedia.org/wiki/Angkor_Wat) deserves to be among 7 wonders, not Taj Mahal. Rode motorcyle across villages in Indian states, saw the raw and rural India, had conversations with real people; felt priviledged, and obligated towards them.
 
