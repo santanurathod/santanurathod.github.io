@@ -48,7 +48,7 @@ For a full professional summary please [see my CV]()
 **WORK EXPERIENCE**
 * Associate ML Scientist, Sept 2020- May 2023 (Full-time)
   - Wadhwani-AI, Mumbai
-  - Applied ML for healthcare; Tabular data classification; Object detection; Computer Vision; NLP tasks; Data/evaluation-pipelines; Noisy datasets; Large Language Models; pre LLM-Chatbots; LLM fine-tunening; MVPs with LangChain
+  - Applied ML for healthcare; Tabular data classification; Object detection; Computer Vision; NLP tasks; Data/evaluation-pipelines; Noisy datasets; Large Language Models; pre LLM-Chatbots; LLM fine-tunening; Gradio MVPs with LangChain
 * BlockChain Intern, May 2020-July 2020 (remote)
   - REDFOX LABS, Ho Chi Minh
   - BlockChain data analysis
