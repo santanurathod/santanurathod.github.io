@@ -30,6 +30,7 @@ I am co-advised by [Xiao Zhang](https://xiao-zhang.net/) and [Pietro Lio](https:
 ### Publications
 
 #### 2024
+
 **Predicting time-varying flux and balance in metabolic systems using structured neural-ODE processes**
 Santanu Rathod, Pietro Lio, Xiao Zhang
 *arXiv preprint arXiv:2410.14426*, 2024.
