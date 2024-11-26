@@ -14,7 +14,7 @@ caption:
 
 ### <a name="research"></a> Research
 
-I'm interested in designing neural network architectures for newer tasks and unseen datasets, exploiting various symmetries and invarianced that exist in them. I am currently working on trying to model dynamic-FBA using neural ODE family of models. 
+I'm interested in designing neural network architectures for newer tasks and unseen datasets, exploiting various symmetries and invariances that exist in them. I am currently working on trying to model dynamic-FBA using neural ODE family of models. 
 
 More specifically I'm interested in:
 
