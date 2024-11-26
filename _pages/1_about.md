@@ -10,7 +10,7 @@ Skip to [short professional summary](#prof).
 
 ### Personal
 My girlfriend describes me as someone with black-cat energy with occasional golden retriever sprinkles xD.
-I believe all individuals have an interesting life story, and as I result I love to listen people talk.
+I believe all individuals have an interesting life story, and as a result I love to listen people talk.
 
 I find it impossible to balance, especially in pursuits, so I'm either utterly obsessed or utterly disinterested. I love travelling to random towns, obscure places, and asking people there what they think of something. I HATE museums. 
 
