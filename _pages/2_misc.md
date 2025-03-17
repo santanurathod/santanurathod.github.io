@@ -79,6 +79,16 @@ permalink: /misc/
   <!-- Add more images as needed -->
 </div>
 
+<h2>Not Naga Rebels. Nagaland.</h2>
+<div class="photo-gallery">
+  <img src="/assets/img/6_nagaland/photo_1.jpg" alt="Photo 1" data-caption="">
+  <img src="/assets/img/6_nagaland/photo_2.jpg" alt="Photo 2" data-caption="">
+  <img src="/assets/img/6_nagaland/photo_3.jpg" alt="Photo 2" data-caption="">
+  <img src="/assets/img/6_nagaland/photo_4.jpg" alt="Photo 2" data-caption="">
+  <img src="/assets/img/6_nagaland/photo_5.jpg" alt="Photo 3" data-caption="">
+  <!-- Add more images as needed -->
+</div>
+
 <div id="caption-overlay" class="caption-overlay" style="display: none;">
   <span id="caption-text"></span>
   <button onclick="closeCaption()">Close</button>
