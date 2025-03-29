@@ -13,16 +13,14 @@ caption:
 </div>
 
 ### <a name="research"></a> Research
+~~I'm interested in designing neural network architectures for newer tasks and unseen datasets, exploiting various symmetries and invariances that exist in them. I am currently working on trying to model dynamic-FBA using neural ODE family of models.~~ Life's too short to not *try* and learn everything you possibly can, even at the cost of your "academic" achievements; **knowledge aquisition** is sacred to me. For **knowledge creation**, however, I'm motivated by building novel (ML) algorithms and methodologies around HUGE data being generated in the multi-omics (genomics; transcriptomics; proteomics; metabolomics) to build biological deep-learning (world) models which will enable personalized treatments, and understanding of life in general.
 
-I'm interested in designing neural network architectures for newer tasks and unseen datasets, exploiting various symmetries and invariances that exist in them. I am currently working on trying to model dynamic-FBA using neural ODE family of models. 
+More specifically I'm interested in ~~everything ML~~:
 
-More specifically I'm interested in:
-
+* All things Dynamical/Generative AI (NeuralODEs/SDEs; Optimal-Transport; Flow/Diffusion Models)
 * Geometric-DL
-* Precision Medicine
-* Neural ODEs/PDEs
-* Physics informed DL
-* Program Synthesis
+* Precision Medicine (in the context of drug target identification)
+* Reasoning Models
 * And more things
 
 I am co-advised by [Xiao Zhang](https://xiao-zhang.net/) and [Pietro Lio](https://www.cl.cam.ac.uk/~pl219/).
@@ -33,8 +31,8 @@ I am co-advised by [Xiao Zhang](https://xiao-zhang.net/) and [Pietro Lio](https:
 
 **Predicting time-varying flux and balance in metabolic systems using structured neural-ODE processes**
 Santanu Rathod, Pietro Lio, Xiao Zhang
-*arXiv preprint arXiv:2410.14426*, 2024.
-[Link to publication](https://arxiv.org/abs/2410.14426)
+*ICLR-MLGenX 2025*
+[Link to publication](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KuT4V6UAAAAJ&citation_for_view=KuT4V6UAAAAJ:UeHWp8X0CEIC)
 
 #### 2022
 
