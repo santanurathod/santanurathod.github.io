@@ -38,7 +38,7 @@ air-rifle shooting, playing devil's advocate, seeing tree leaves flutter in the 
 
 **2023-2024** Had fermented rice beer in a jungle with [Naga-people](https://en.wikipedia.org/wiki/Naga_people), met my girlfriend; traveled with her; she introduced me to surfing, made a 3500KM long motorcycle trip to eat a Horlicks Ice-Cream in [Udupi](https://youtu.be/PIsPdbLTHUA?si=u7T4FgKZw_gPJGjD) in pouring monsoon rain, got into ELLIS PhD program and started my PhD.
 
-**2024-Now**~~I was forced to~~ Took some ~~lot of~~ courses because I had no masters, best things I learned: Quantum-Information-Processing; Quantum-ML; Formal Verification; Quantum Computing is a field with ~~no~~ solution ~~(yet)desperately~~ looking for a problem, passed my Qualification Exam, was in Saarbrucken, Germany, searched for reasons to like it-- it's [kinder pingui](https://www.kinder.com/de/de/kinder-pingui)!! Currently in Cambridge, UK.
+**2024-Now**~~I was forced to~~ Took some ~~lot of~~ courses because I had no masters, best things I learned: Quantum-Information-Processing; Quantum-ML; Formal Verification; Quantum Computing is a field with ~~no~~ solution ~~(yet)desperately~~ looking for a problem, started reading/understanding the whole Lifshitz-Landau series for the n-th time, passed my Qualification Exam, was in Saarbrucken, Germany, searched for reasons to like it-- it's [kinder pingui](https://www.kinder.com/de/de/kinder-pingui)!! Currently in Cambridge, UK.
 
 ***
 
