@@ -36,7 +36,9 @@ air-rifle shooting, playing devil's advocate, seeing tree leaves flutter in the 
 
 **Also 2020-2022**  Went to Everest and Annapurna Basecamp, backpacked across SE Asia. [Angkor-Wat](https://en.wikipedia.org/wiki/Angkor_Wat) deserves to be among 7 wonders, not Taj Mahal. Rode motorcyle across villages in Indian states, saw the raw and rural India, had conversations with real people; felt priviledged, and obligated towards them.
 
-**2023-now** Had fermented rice beer in a jungle with [Naga-people](https://en.wikipedia.org/wiki/Naga_people), met my girlfriend; traveled with her; she introduced me to surfing, made a 3500KM long motorcycle trip to eat a Horlicks Ice-Cream in [Udupi](https://youtu.be/PIsPdbLTHUA?si=u7T4FgKZw_gPJGjD) in pouring monsoon rain, got into ELLIS PhD program and started my PhD. Currently in Saarbrucken, Germany, looking for reasons to like it-- it's [kinder pingui](https://www.kinder.com/de/de/kinder-pingui)!!
+**2023-2024** Had fermented rice beer in a jungle with [Naga-people](https://en.wikipedia.org/wiki/Naga_people), met my girlfriend; traveled with her; she introduced me to surfing, made a 3500KM long motorcycle trip to eat a Horlicks Ice-Cream in [Udupi](https://youtu.be/PIsPdbLTHUA?si=u7T4FgKZw_gPJGjD) in pouring monsoon rain, got into ELLIS PhD program and started my PhD.
+
+**2024-Now**~~I was forced to~~ Took some ~~lot of~~ courses because I had no masters, best things I learned: Quantum-Information-Processing/ML; Formal Verification; Quantum Computing is a field with ~~no~~ solution (yet) ~~desperately~~ looking for a problem, passed my Qualification Exam, was in Saarbrucken, Germany, searched for reasons to like it-- it's [kinder pingui](https://www.kinder.com/de/de/kinder-pingui)!! Currently in Cambridge, UK.
 
 ***
 
@@ -84,9 +86,10 @@ For a full professional summary please [see my CV]()
   - Area: Action Classification and Detection
 
 **EDUCATION**
-* ELLIS PhD Student, Nov 2023—Current
+* ELLIS PhD Student, Jan 2024—Current
   - CISPA-Helmholtz (advisor: [Dr-Xiao-Zhang](https://xiao-zhang.net/))
   - University of Cambridge (advisor: [Dr-Pietro-Lio](https://www.cl.cam.ac.uk/~pl219/))
+    (Darwin College)
 * B.TECH, Electronics and Electrical Engineering, 2016-2020
   - Indian Institute of Technology, Bombay
 
