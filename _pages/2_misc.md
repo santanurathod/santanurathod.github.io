@@ -10,8 +10,11 @@ permalink: /misc/
 <div class="photo-gallery">
   <img src="/assets/img/1_bikes/photo_1.jpg" alt="Photo 1" data-caption="">
   <img src="/assets/img/1_bikes/photo_2.jpg" alt="Photo 2" data-caption="">
+  <img src="/assets/img/1_bikes/photo_2.2.jpg" alt="Photo 2.2" data-caption="">
+  <img src="/assets/img/1_bikes/photo_2.3.jpg" alt="Photo 2.3" data-caption="">
   <img src="/assets/img/1_bikes/photo_3.jpg" alt="Photo 3" data-caption="">
   <img src="/assets/img/1_bikes/photo_4.jpg" alt="Photo 4" data-caption="">
+  <img src="/assets/img/1_bikes/photo_4.2.jpg" alt="Photo 4.2" data-caption="">
   <img src="/assets/img/1_bikes/photo_5.jpg" alt="Photo 5" data-caption="">
   <!-- Add more images as needed -->
 </div>
