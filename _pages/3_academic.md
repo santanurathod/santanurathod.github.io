@@ -13,7 +13,7 @@ caption:
 </div>
 
 ### <a name="research"></a> Research Interests
-~~I'm interested in designing neural network architectures for newer tasks and unseen datasets, exploiting various symmetries and invariances that exist in them. I am currently working on trying to model dynamic-FBA using neural ODE family of models.~~ Life's too short to not *try* and learn everything you possibly can, even at the cost of your "academic" achievements; **knowledge aquisition** is sacred to me. For **knowledge creation**, however, these days I'm motivated by building novel (ML) algorithms and methodologies around HUGE data being generated in the multi-omics (genomics; transcriptomics; proteomics; metabolomics) to build biological deep-learning (world) models which will enable personalized treatments, and better understanding of life in general.
+~~I'm interested in designing neural network architectures for newer tasks and unseen datasets, exploiting various symmetries and invariances that exist in them. I am currently working on trying to model dynamic-FBA using neural ODE family of models.~~ Life's too short to not *try* and learn everything you possibly can. These days, however, I'm motivated by building novel (ML) algorithms and methodologies around HUGE data being generated in the multi-omics (genomics; transcriptomics; proteomics; metabolomics) to build biological deep-learning (world) models which will enable personalized treatments, and better understanding of life in general.
 
 More specifically I'm interested in ~~everything ML~~:
 
