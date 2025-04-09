@@ -94,10 +94,10 @@ permalink: /misc/
 
 <h2>Wittgenstein Fanboys. Cambridge, UK</h2>
 <div class="photo-gallery">
-  <img src="/assets/img/7_wittgenstein/photo_1.jpg" alt="Photo 1" data-caption="">
-  <img src="/assets/img/7_wittgenstein/photo_2.jpg" alt="Photo 2" data-caption="">
-  <img src="/assets/img/7_wittgenstein/photo_3.jpg" alt="Photo 2" data-caption="">
-  <img src="/assets/img/7_wittgenstein/photo_4.jpg" alt="Photo 2" data-caption="">
+  <img src="/assets/img/7_wittgenstein/photo_1.jpeg" alt="Photo 1" data-caption="">
+  <img src="/assets/img/7_wittgenstein/photo_2.jpeg" alt="Photo 2" data-caption="">
+  <img src="/assets/img/7_wittgenstein/photo_3.jpeg" alt="Photo 2" data-caption="">
+  <img src="/assets/img/7_wittgenstein/photo_4.jpeg" alt="Photo 2" data-caption="">
   <!-- Add more images as needed -->
 </div>
 
